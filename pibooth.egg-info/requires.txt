@@ -1,0 +1,18 @@
+Pillow>=8.3.1
+gpiozero>=1.5.1
+pluggy>=0.13.1
+psutil>=5.5.1
+pygame-menu==4.0.7
+pygame-vkeyboard>=2.0.8
+pygame>=1.9.6
+
+[:platform_machine >= "armv0l" and platform_machine <= "armv9l"]
+RPi.GPIO>=0.7.0
+picamera>=1.13
+
+[dslr]
+gphoto2>=2.0.0
+
+[printer]
+pycups-notify>=0.0.4
+pycups>=1.9.73
