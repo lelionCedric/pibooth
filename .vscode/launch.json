@@ -12,18 +12,7 @@
             "program": "./booth.py",
             "console": "integratedTerminal",
             "args": [
-                "/SOURCES/pibooth/pibooth/ressources/"
-            ],
-            "justMyCode": false
-        },
-        {
-            "name": "module pibooth",
-            "type": "python",
-            "request": "launch",
-            "module": "pibooth",
-            "console": "integratedTerminal",
-            "args": [
-                "/SOURCES/pibooth/pibooth/ressources/"
+                "/SOURCES/custom_pibooth/pibooth/ressources/"
             ],
             "justMyCode": false
         }

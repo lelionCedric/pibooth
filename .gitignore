@@ -1,0 +1,8 @@
+
+build/
+
+dist/
+
+pibooth/__pycache__/
+
+pibooth.egg-info/
