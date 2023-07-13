@@ -138,6 +138,7 @@ class PicturePlugin(object):
     @pibooth.hookimpl
     def state_processing_exit(self, app):
         app.count.taken += 1  # Do it here because 'print' state can be skipped
+        app.current_taken += 1 
 
     @pibooth.hookimpl
     def state_print_do(self, cfg, app, events):

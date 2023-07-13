@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
         
         {
             "name": "launch pibooth",
@@ -12,7 +13,7 @@
             "program": "./booth.py",
             "console": "integratedTerminal",
             "args": [
-                "/SOURCES/custom_pibooth/pibooth/ressources/"
+                "/SOURCES/custom_pibooth/pibooth/ressources_dev/"
             ],
             "justMyCode": false
         }

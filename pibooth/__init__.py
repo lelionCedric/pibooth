@@ -2,7 +2,7 @@
 
 """A photo booth application in pure Python for the Raspberry Pi."""
 
-__version__ = "2023.03.14"
+__version__ = "2023.05.27"
 
 try:
 
@@ -11,5 +11,5 @@ try:
     # Marker to be imported and used in plugins (and for own implementations)
     hookimpl = pluggy.HookimplMarker('pibooth')
 
-except ImportError:
+except ImportError: 
     pass  # When running the setup.py, pluggy is not yet installed
